@@ -5,7 +5,7 @@ var app = express()
  
 app.use(cors())
 
-var obj =   {["id":11, "title":"hello", "body":"world"]}
+var obj =   [{"id":11, "title":"hello", "body":"world"}]
 
 
 app.get('/', function(req, res) {
